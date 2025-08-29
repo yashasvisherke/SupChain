@@ -1,0 +1,15 @@
+await supplyChain.products("BATCH001");
+await supplyChain.updateProductStatus("BATCH001", "In Transit");
+"In Transit");
+SSSSSSSSSSSSSSSSSS
+await supplyChain.updateProductStatawait supplyChain.products("BATCH001");
+await supplyChain.updateProductStatus("BATCH001", "In Transit");
+await supplyChain.products("BATCH002");
+await supplyChain.produ
+await supplyChain.createProductBatch("BATCH002", "AnotherFactory", "Delhi");
+await supplyChain.products("BATCH001");
+await supplyChain.updateProductStatus("BATCH001", "Shipped");
+await supplyChain.products("BATCH001");
+await supplyChain.createProductBatch("BATCH001", "MyFactory", "Mumbai");
+const supplyChain = await SupplyChain.attach("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const SupplyChain = await ethers.getContractFactory("SupplyChain");
